@@ -32,7 +32,7 @@ pipeline {
                         }
                         stage('Integration test') {
                         steps{
-                        sh ('docker run ubuntu echo "Runnign the integration test"')
+                        bat 'docker run ubuntu echo "Runnign the integration test"'
                         }
 
 
