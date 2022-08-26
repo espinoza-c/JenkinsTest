@@ -31,7 +31,7 @@ pipeline {
                                 }
                         }
                         stage('Integration test') {
-                        sh ('docker run ubuntu echo 'Runnign the integration test')
+                        sh ('docker run ubuntu echo "Runnign the integration test"')
 
 			}  }
         }
